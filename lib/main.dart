@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pojectmobile_astronomy/homepage.dart';
+import 'package:pojectmobile_astronomy/splash_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomePage(),
+      home: SplashScreen(),
     );
   }
 }

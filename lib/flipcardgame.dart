@@ -89,7 +89,7 @@ class _FlipCardGaneState extends State<FlipCardGane> {
   @override
   Widget build(BuildContext context) {
     return _isFinished ? Scaffold(
-       body: Container(
+       body: Center(
         child: GestureDetector(
           onTap: () {
             setState(() {
@@ -128,7 +128,7 @@ class _FlipCardGaneState extends State<FlipCardGane> {
                   style: Theme.of(context).textTheme.headline3,
                 )
                     : Text(
-                  'Left:$_left',
+                  'เหลือรูปภาพจำนวน: $_left คู่',
                   style: Theme.of(context).textTheme.headline3,
                 ),
               ),

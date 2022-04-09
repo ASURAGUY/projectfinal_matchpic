@@ -92,6 +92,7 @@ class _HomePageState extends State<HomePage> {
                             crossAxisAlignment: CrossAxisAlignment.center,
                             children: genratestar(_list[index].noOfstar),
                           )
+                          
                         ],
                       ),
                     ),
@@ -136,19 +137,19 @@ class Details {
 
 List<Details> _list = [
   Details(
-      name: "EASY",
+      name: "ระดับง่ายมากๆ",
       primarycolor: Colors.green,
       secomdarycolor: Colors.green[300],
       noOfstar: 1,
       goto: FlipCardGane(Level.Easy)),
   Details(
-      name: "MEDIUM",
+      name: "ระดับปกติ",
       primarycolor: Colors.orange,
       secomdarycolor: Colors.orange[300],
       noOfstar: 2,
       goto: FlipCardGane(Level.Medium)),
   Details(
-      name: "HARD",
+      name: "ระดับเกือบยาก แต่เราเก่งกว่า",
       primarycolor: Colors.red,
       secomdarycolor: Colors.red[300],
       noOfstar: 3,
