@@ -128,7 +128,7 @@ class _FlipCardGaneState extends State<FlipCardGane> {
                   style: Theme.of(context).textTheme.headline3,
                 )
                     : Text(
-                  'เหลือรูปภาพจำนวน: $_left คู่',
+                  'เหลือภาพจำนวน: $_left คู่',
                   style: Theme.of(context).textTheme.headline3,
                 ),
               ),

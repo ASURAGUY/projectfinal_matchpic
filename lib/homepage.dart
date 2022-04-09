@@ -19,7 +19,7 @@ class _HomePageState extends State<HomePage> {
             fit: BoxFit.cover,
           ),
         ),
-        padding: const EdgeInsets.all(8.0),
+        padding: const EdgeInsets.only(top: 200.0),
         child: ListView.builder(
           itemCount: _list.length,
           itemBuilder: (context, index) {
