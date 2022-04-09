@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:ui';
 import 'dart:async';
-
+import 'package:assets_audio_player/assets_audio_player.dart';
 import 'package:pojectmobile_astronomy/homepage.dart';
 
 
@@ -10,6 +10,7 @@ class SplashScreen extends StatefulWidget {
   @override
   _TimerButton createState() => _TimerButton();
 }
+  // this will create a instance object of a class
 
 class _TimerButton extends State<SplashScreen> {
   final interval = const Duration(seconds: 1);
@@ -54,7 +55,8 @@ class _TimerButton extends State<SplashScreen> {
               Text(
                 "เกมจับคู่ภาพ",
                 style: Theme.of(context).textTheme.headline2, // like <h1> in HTML
-              )
+              ),
+
             ],
           ),
         ),

@@ -105,7 +105,7 @@ class _FlipCardGaneState extends State<FlipCardGane> {
               borderRadius: BorderRadius.circular(24),
             ),
             child: Text(
-              "Replay",
+              "เก่งมาก!! ลองอีกรอบ",
               style: TextStyle(
                   color: Colors.white,
                   fontSize: 17,
